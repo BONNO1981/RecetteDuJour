@@ -18,7 +18,7 @@
         <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="193" Margin="47,184,0,0"/>
         <Label Content="Chers clients, nous vous proposons des plats typiquement " HorizontalAlignment="Left" Height="35" Margin="265,168,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" Foreground="#FF1DD0CC"/>
         <Image HorizontalAlignment="Left" Height="140" Margin="805,194,0,0" VerticalAlignment="Top" Width="219"/>
-        <Label Content="NOS MENUS" HorizontalAlignment="Left" Height="47" Margin="422,293,0,0" VerticalAlignment="Top" Width="260" FontFamily="Snap ITC" FontSize="32" Background="{x:Null}" Foreground="#FFD03FCB"/>
+        <Label Content="NOS MENUS" HorizontalAlignment="Left" Height="47" Margin="422,293,0,0" VerticalAlignment="Top" Width="260" FontFamily="Snap ITC" FontSize="32" Background="Black" Foreground="#FFD03FCB"/>
         <TextBox HorizontalAlignment="Left" Height="41" Margin="40,361,0,0" TextWrapping="Wrap" Text="NOS POISSONS" VerticalAlignment="Top" Width="239" TextChanged="TextBox_TextChanged" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBox HorizontalAlignment="Left" Height="41" Margin="293,361,0,0" TextWrapping="Wrap" Text="NOS VIANDES" VerticalAlignment="Top" Width="230" TextChanged="TextBox_TextChanged_1" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBox HorizontalAlignment="Left" Height="41" Margin="547,360,0,0" TextWrapping="Wrap" Text="NOS CHEVRES" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
@@ -35,5 +35,7 @@
         <Label Content="POUR RESERVER VOS TABLES ET COMMANDER VOS PLATS A MANGER SUR PLACE OU A EMPORTER N'HESITEZ PAS A NOUS CONTACTER AU :" HorizontalAlignment="Left" Margin="64,883,0,0" VerticalAlignment="Top" Width="935" FontFamily="Mongolian Baiti" FontSize="16" FontStyle="Italic"/>
         <Label Content=" N'HESITEZ PAS A NOUS CONTACTER AU :" HorizontalAlignment="Left" Margin="364,913,0,0" VerticalAlignment="Top" Width="325" FontFamily="Mongolian Baiti" FontSize="16" FontStyle="Italic"/>
         <Label Content="TEL : 40.920.659 , VINI : 87.336.554 OU ENCORE PAR MAIL : kaiNKH@gmail.com" HorizontalAlignment="Left" Margin="192,943,0,0" VerticalAlignment="Top" Width="681" FontFamily="Mongolian Baiti" FontSize="18" FontStyle="Italic" FontWeight="Bold" Foreground="#FF243BE4"/>
+        <Image x:Name="kaakuKeekee" Margin="45,192,820.2,665.6" Source="Capture d'écran 2020-10-30 092010.png" Stretch="Fill"/>
+        <Image x:Name="Kaakutea" Margin="795,181,71.2,671.6" Source="PHOTO KAAKU BLANC.jpg" Stretch="Fill"/>
     </Grid>
 </Window>
