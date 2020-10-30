@@ -69,6 +69,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="metiers\Business.cs" />
+    <Compile Include="metiers\Recette.cs" />
+    <Compile Include="metiers\RecetteAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,10 +98,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RecetteDuJourMetiers\RecetteDuJourMetiers.csproj">
-      <Project>{00df8c4c-9210-4b2a-9c47-433312c03fed}</Project>
-      <Name>RecetteDuJourMetiers</Name>
-    </ProjectReference>
+    <Folder Include="UI\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
