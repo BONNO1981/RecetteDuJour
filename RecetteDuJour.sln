@@ -5,11 +5,12 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetteDuJour", "RecetteDuJour\RecetteDuJour.csproj", "{AEBA6130-4D6D-42DF-8671-13A855D5666B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetteDuJourMetiers", "RecetteDuJourMetiers\RecetteDuJourMetiers.csproj", "{00DF8C4C-9210-4B2A-9C47-433312C03FED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecetteDuJourMetiers", "RecetteDuJourMetiers\RecetteDuJourMetiers.csproj", "{00DF8C4C-9210-4B2A-9C47-433312C03FED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D56E798-B02A-47A2-9493-6926E0B4E17D}"
 	ProjectSection(SolutionItems) = preProject
 		Documents\cahier des charges.docx = Documents\cahier des charges.docx
+		Documents\kaikai.sql = Documents\kaikai.sql
 	EndProjectSection
 EndProject
 Global
