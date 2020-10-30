@@ -40,6 +40,7 @@ namespace RecetteDuJour.metiers
 
                         Recette rp = new Recette(Nom, Image, Categorie, NbPersonne, Ingredients, Preparation);
                         rp.Id = id;
+
                         business.reparations.Add(rp);
 
                     }
