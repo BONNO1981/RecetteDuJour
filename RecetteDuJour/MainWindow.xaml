@@ -35,7 +35,7 @@
         <Label Content="POUR RESERVER VOS TABLES ET COMMANDER VOS PLATS A MANGER SUR PLACE OU A EMPORTER N'HESITEZ PAS A NOUS CONTACTER AU :" HorizontalAlignment="Left" Margin="64,883,0,0" VerticalAlignment="Top" Width="935" FontFamily="Mongolian Baiti" FontSize="16" FontStyle="Italic"/>
         <Label Content=" N'HESITEZ PAS A NOUS CONTACTER AU :" HorizontalAlignment="Left" Margin="364,913,0,0" VerticalAlignment="Top" Width="325" FontFamily="Mongolian Baiti" FontSize="16" FontStyle="Italic"/>
         <Label Content="TEL : 40.920.659 , VINI : 87.336.554 OU ENCORE PAR MAIL : kaiNKH@gmail.com" HorizontalAlignment="Left" Margin="192,943,0,0" VerticalAlignment="Top" Width="681" FontFamily="Mongolian Baiti" FontSize="18" FontStyle="Italic" FontWeight="Bold" Foreground="#FF243BE4"/>
-        <Image x:Name="kaakuKeekee" Margin="45,192,820.2,665.6" Source="Capture d'écran 2020-10-30 092010.png" Stretch="Fill"/>
-        <Image x:Name="Kaakutea" Margin="795,181,71.2,671.6" Source="PHOTO KAAKU BLANC.jpg" Stretch="Fill"/>
+        <Image x:Name="kaakuKeekee" Margin="45,192,820.2,665.6" Source="/Ressources/kaakukeekee.png" Stretch="Fill"/>
+        <Image x:Name="Kaakutea" Margin="795,181,71.2,671.6" Source="/Ressources/PHOTO KAAKU BLANC.jpg" Stretch="Fill"/>
     </Grid>
 </Window>
