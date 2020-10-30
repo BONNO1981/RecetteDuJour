@@ -1,9 +1,9 @@
-﻿<Window x:Class="RecetteDuJour.recette"
+﻿<Window x:Class="RecetteDuJour.UI.recette"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RecetteDuJour"
+        xmlns:local="clr-namespace:RecetteDuJour.UI"
         mc:Ignorable="d"
         Title="recette"  Height="853.427" Width="801.349">
     <Grid Margin="0,0,0.2,-4">
