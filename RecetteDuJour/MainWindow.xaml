@@ -14,6 +14,10 @@
         <TextBlock HorizontalAlignment="Left" Height="50" Margin="260,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="533" FontFamily="Snap ITC" FontSize="18" Foreground="#FF1535E7"><Run Text="VENEZ DEGUSTER NOS RECETTES LOCALES "/><Run Text=" ACCOMPAGNEES DE NOTRE FAMEUX KAAKU !!!"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="437,221,0,0" Height="47" Width="242" FontSize="36" FontFamily="Matura MT Script Capitals" TextDecorations="Underline"><Run Text="Nos menus"/><Run Text=" :"/></TextBlock>
         <Image x:Name="logo1" HorizontalAlignment="Left" Height="81" Margin="839,130,0,0" VerticalAlignment="Top" Width="179"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="387" Stroke="Black" VerticalAlignment="Top" Width="224" Margin="36,303,0,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="387" Stroke="Black" VerticalAlignment="Top" Width="224" Margin="292,303,0,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="387" Stroke="Black" VerticalAlignment="Top" Width="224" Margin="545,303,0,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="387" Stroke="Black" VerticalAlignment="Top" Width="224" Margin="794,303,0,0"/>
 
     </Grid>
 </Window>
