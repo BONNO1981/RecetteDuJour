@@ -105,14 +105,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="resources\" />
     <Folder Include="UI\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Capture d’écran 2020-10-30 092010.png" />
+    <Resource Include="Ressources\kaakukeekee.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="PHOTO KAAKU BLANC.jpg" />
+    <Resource Include="Ressources\PHOTO KAAKU BLANC.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
