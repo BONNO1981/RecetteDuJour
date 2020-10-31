@@ -152,7 +152,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UI\" />
     <Folder Include="resources\" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +159,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Ressources\PHOTO KAAKU BLANC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kaaku.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kaaku4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

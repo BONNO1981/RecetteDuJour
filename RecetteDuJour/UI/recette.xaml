@@ -13,14 +13,19 @@
                 <GradientStop Color="#FFE3F32E" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Height="43" Margin="73,33,0,0" Background="#FFE7E11F" TextWrapping="Wrap" VerticalAlignment="Top" Width="664" FontFamily="Lucida Calligraphy" FontSize="30" Foreground= "Red" TextDecorations="{x:Null}" FontWeight="Bold" FontStyle="Italic"><Run Text="DECOUVREZ NOS RECETTES LOCALES "/><Run Text=" "/></TextBlock>
+        <Label x:Name="titre" Content="kAAKU" FontSize="50" Foreground="#FFFF" FontWeight="Bold" HorizontalAlignment="Left" Margin="287,94,0,0" VerticalAlignment="Top" Width="177" Height="57" FontFamily="Pristina"/>
+        <Button Content="Enregistrer" FontSize="20  " HorizontalAlignment="Left" Margin="637,755,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <Image Margin="18,94,526,483" Source="/RecetteDuJour;component/kaaku.jpg" Stretch="Fill"/>
+        <Image Margin="287,156,331,483" Source="/RecetteDuJour;component/kaaku.jpg" Stretch="Fill"/>
+        <Image Margin="494,94,58,483" Source="/RecetteDuJour;component/kaaku4.jpg" Stretch="Fill"/>
+        <Button Content="Modifier" FontSize="20  " HorizontalAlignment="Left" Margin="472,755,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <Button Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="300,755,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20"  Margin="18,378,0,0" TextWrapping="Wrap" Text="Ingredients :" VerticalAlignment="Top" Width="269" TextChanged="TextBox_TextChanged" FontFamily="Lucida Handwriting"/>
+        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20" Margin="287,378,0,0" TextWrapping="Wrap" Text="Preparation :" VerticalAlignment="Top" Width="488" FontFamily="Lucida Handwriting"/>
 
-        <Label x:Name="titre" Content="" FontSize="100" Foreground="#FFFF" FontWeight="Bold" HorizontalAlignment="Left" Margin="266,0,0,0" VerticalAlignment="Top" Width="263" Height="94" FontFamily="Pristina"/>
-        <Image x:Name="photo" HorizontalAlignment="Left" Height="231" Margin="48,164,0,0" VerticalAlignment="Top" Width="278"/>
-        <Label Content="Ingrédients :" FontSize="35" HorizontalAlignment="Left" Margin="559,243,0,0" VerticalAlignment="Top" FontFamily="Viner Hand ITC"/>
-        <TextBlock x:Name="ingredients" Foreground="Black" HorizontalAlignment="Left" Margin="486,302,0,0" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" Height="159" Width="251"/>
-        <Label Content="Préparation de la recette" FontSize="25" HorizontalAlignment="Left" Margin="33,424,0,0" VerticalAlignment="Top" Height="42" Width="366" FontFamily="Lucida Calligraphy" FontWeight="Bold"/>
-        <TextBlock x:Name="etape" HorizontalAlignment="Left" Margin="33,466,0,0" Foreground="Black" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" Height="299" Width="366"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="150,124,0,0" Background="#FFE7E11F" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" FontFamily="Lucida Calligraphy" FontSize="22" Foreground= "Red" TextDecorations="{x:Null}" FontWeight="Bold" FontStyle="Italic"><Run Text="DECOUVREZ NOS RECETTES LOCALES "/><Run Text=" "/></TextBlock>
+
+
 
     </Grid>
 </Window>

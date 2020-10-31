@@ -23,5 +23,10 @@ namespace RecetteDuJour.UI
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged()
+        {
+
+        }
     }
 }
