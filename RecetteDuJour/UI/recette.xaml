@@ -21,8 +21,10 @@
         <Image Margin="494,94,58,483" Source="/RecetteDuJour;component/kaaku4.jpg" Stretch="Fill"/>
         <Button Content="Modifier" FontSize="20  " HorizontalAlignment="Left" Margin="472,755,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
         <Button Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="300,755,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
-        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20"  Margin="18,378,0,0" TextWrapping="Wrap" Text="Ingredients :" VerticalAlignment="Top" Width="269" TextChanged="TextBox_TextChanged" FontFamily="Lucida Handwriting"/>
-        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20" Margin="287,378,0,0" TextWrapping="Wrap" Text="Preparation :" VerticalAlignment="Top" Width="488" FontFamily="Lucida Handwriting"/>
+        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20"  Margin="18,429,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" TextChanged="TextBox_TextChanged" FontFamily="Lucida Handwriting"/>
+        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20" Margin="287,429,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="488" FontFamily="Lucida Handwriting"/>
+        <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="18,365,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
+        <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,365,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
 
 
 
