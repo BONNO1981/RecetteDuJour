@@ -8,13 +8,13 @@ namespace RecetteDuJour.metiers
 {
     public class Recette
     {
-        int Id { get; set; }
-        string Nom { get; set; }
-        string Image { get; set; }
-        string Categorie { get; set; }
-        int NbPersonne { get; set; }
-        string Ingredients { get; set; }
-        string Preparation { get; set; }
+        public int Id { get; set; }
+        public string Nom { get; set; }
+        public string Image { get; set; }
+        public string Categorie { get; set; }
+        public int NbPersonne { get; set; }
+        public string Ingredients { get; set; }
+        public string Preparation { get; set; }
        
 
         public Recette( string Nom, string Image, string Categorie, int NbPersonne,string Ingredients,string Preparation)
