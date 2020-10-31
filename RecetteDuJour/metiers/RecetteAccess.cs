@@ -39,7 +39,7 @@ namespace RecetteDuJour.metiers
                         string Preparation = dbReader.GetString(6);
 
                         Recette rp = new Recette(Nom, Image, Categorie, NbPersonne, Ingredients, Preparation);
-                        rp.Id = id;
+                        //rp.Id = id;
 
                         Business.Recettes.Add(rp);
 
