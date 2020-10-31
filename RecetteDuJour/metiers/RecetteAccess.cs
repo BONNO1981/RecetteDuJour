@@ -41,7 +41,7 @@ namespace RecetteDuJour.metiers
                         Recette rp = new Recette(Nom, Image, Categorie, NbPersonne, Ingredients, Preparation);
                         rp.Id = id;
 
-                        business.reparations.Add(rp);
+                        Business.Recettes.Add(rp);
 
                     }
                 }
@@ -49,33 +49,29 @@ namespace RecetteDuJour.metiers
                 command.Connection.Close();
             }
         }
-        public static bool InsertReparation(reparationPhone r)
+        public static bool InsertRecette(Recette r)
         {
-            string sql = "INSERT INTO reparation(id, Nom, Prenom, ModelPhone, Mobile,Email, DateRecu, Description, Statut, PrixReparation) " +
-                "VALUES(@id, @Nom, @Prenom, @ModelPhone, @Mobile,@Email, @DateRecu, @Description, @Statut, @PrixReparation)";
+            string sql = "INSERT INTO recette(id, Nom, Image, Categorie, NbPersonne, Ingredients, Preparation) " +
+                "VALUES(@id, @Nom, @Image, @Categorie, @NbPersonne,@Ingredients, @Preparation)";
             using (MySqlCommand cmd = new MySqlCommand(sql, connection))
             {
                 cmd.Connection.Open();
                 cmd.Parameters.AddWithValue("@id", null);
                 cmd.Parameters.AddWithValue("@Nom", r.Nom);
-                cmd.Parameters.AddWithValue("@Prenom", r.Prenom);
-                cmd.Parameters.AddWithValue("@ModelPhone", r.ModelPhone);
-                cmd.Parameters.AddWithValue("@Mobile", r.Mobile);
-                cmd.Parameters.AddWithValue("@Email", r.Email);
-                cmd.Parameters.AddWithValue("@DateRecu", r.DateRecu);
-                cmd.Parameters.AddWithValue("@Description", r.Description);
-                cmd.Parameters.AddWithValue("@Statut", r.Statut);
-                cmd.Parameters.AddWithValue("@PrixReparation", r.PrixReparation);
-
+                cmd.Parameters.AddWithValue("@Image", r.Image);
+                cmd.Parameters.AddWithValue("@Categorie", r.Categorie);
+                cmd.Parameters.AddWithValue("@NbPersonne", r.NbPersonne);
+                cmd.Parameters.AddWithValue("@Ingredients", r.Ingredients);
+                cmd.Parameters.AddWithValue("@Preparation", r.Preparation);
                 bool result = cmd.ExecuteNonQuery() == 1;
                 cmd.Connection.Close();
                 return result;
             }
 
         }
-        public static bool UpdateReparation(reparationPhone r)
+        public static bool UpdateRecette(Recette r)
         {
-            string sql = "UPDATE reparation SET Nom=@Nom, Prenom=@Prenom, ModelPhone=@ModelPhone, Mobile=@Mobile, Email=@Email, DateRecu=@DateRecu,Description=@Description, Statut=@Statut, PrixReparation=@PrixReparation" +
+            string sql = "UPDATE kaikai SET Nom=@Nom, Image=@Image, Categorie=@Categorie, NbPersonne=@NbPersonne, Ingredients=@Ingredients, Preparation=@Preparation" +
                 " Where id=@id";
 
             using (MySqlCommand cmd = new MySqlCommand(sql, connection))
@@ -84,14 +80,11 @@ namespace RecetteDuJour.metiers
 
                 cmd.Parameters.AddWithValue("@id", r.Id);
                 cmd.Parameters.AddWithValue("@Nom", r.Nom);
-                cmd.Parameters.AddWithValue("@Prenom", r.Prenom);
-                cmd.Parameters.AddWithValue("@ModelPhone", r.ModelPhone);
-                cmd.Parameters.AddWithValue("@Mobile", r.Mobile);
-                cmd.Parameters.AddWithValue("@Email", r.Email);
-                cmd.Parameters.AddWithValue("@DateRecu", r.DateRecu);
-                cmd.Parameters.AddWithValue("@Description", r.Description);
-                cmd.Parameters.AddWithValue("@Statut", r.Statut);
-                cmd.Parameters.AddWithValue("@PrixReparation", r.PrixReparation);
+                cmd.Parameters.AddWithValue("@Image", r.Image);
+                cmd.Parameters.AddWithValue("@Categorie", r.Categorie);
+                cmd.Parameters.AddWithValue("@NbPersonne", r.NbPersonne);
+                cmd.Parameters.AddWithValue("@Ingredients", r.Ingredients);
+                cmd.Parameters.AddWithValue("@Preparation", r.Preparation);
 
                 bool result = cmd.ExecuteNonQuery() == 1;
                 cmd.Connection.Close();
