@@ -10,7 +10,7 @@ namespace RecetteDuJour.metiers
     {
         public int Id { get; set; }
         public string Nom { get; set; }
-        public string Image { get; set; }
+        public string Image { get; set; }      
         public string Categorie { get; set; }
         public int NbPersonne { get; set; }
         public string Ingredients { get; set; }
