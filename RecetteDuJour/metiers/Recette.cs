@@ -9,7 +9,18 @@ namespace RecetteDuJour.metiers
     public class Recette
     {
         int Id { get; set; }
-        string Nom { get; set; }
+        private string nom;
+        public string Nom
+        {
+            get
+            {
+                return this.nom;
+            }
+            set
+            {
+                SetProperty(ref this.nom, value);
+            }
+        }
         string Image { get; set; }
         string Categorie { get; set; }
         int NbPersonne { get; set; }

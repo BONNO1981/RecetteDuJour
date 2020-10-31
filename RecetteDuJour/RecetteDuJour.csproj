@@ -101,6 +101,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="metiers\BindableBase.cs" />
     <Compile Include="UI\recette.xaml.cs">
       <DependentUpon>recette.xaml</DependentUpon>
     </Compile>
@@ -152,7 +153,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UI\" />
     <Folder Include="resources\" />
   </ItemGroup>
   <ItemGroup>

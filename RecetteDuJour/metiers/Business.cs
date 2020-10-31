@@ -12,5 +12,10 @@ namespace RecetteDuJour.metiers
         public static ObservableCollection<Recette> Recettes { get; set; }
 
 
+        
+
+
     }
+
+    
 }
