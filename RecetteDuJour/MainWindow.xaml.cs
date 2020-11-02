@@ -32,7 +32,7 @@ namespace RecetteDuJour
             this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
             this.viandecategorie.ItemsSource = Business.GetByCategorie("Viande");
             this.fruitdemercategorie.ItemsSource = Business.GetByCategorie("Fruits de mers");
-            this.chevrecategorie.ItemsSource = Business.GetByCategorie("Chevre");
+            this.chevrecategorie.ItemsSource = Business.GetByCategorie("Chèvre");
 
         }
 
