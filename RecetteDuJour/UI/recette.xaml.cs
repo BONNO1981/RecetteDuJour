@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace RecetteDuJour
+namespace RecetteDuJour.UI
 {
     /// <summary>
     /// Interaction logic for recette.xaml
@@ -22,6 +22,11 @@ namespace RecetteDuJour
         public recette()
         {
             InitializeComponent();
+        }
+
+        private void TextBox_TextChanged()
+        {
+
         }
     }
 }
