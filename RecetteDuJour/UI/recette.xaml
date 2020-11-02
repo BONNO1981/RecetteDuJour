@@ -23,7 +23,7 @@
         <TextBox HorizontalAlignment="Left" Height="311" FontSize="20" Margin="287,429,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="488" FontFamily="Lucida Handwriting"/>
         <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="18,365,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
         <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,365,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
-        <Image Margin="287,156,298,468" Source="/RecetteDuJour;component/kaaku.jpg" Stretch="Fill"/>
+        <Image x:Name="kaaku" Margin="287,156,298,468" Source="/RecetteDuJour;component/kaaku.jpg" Stretch="Fill"/>
         <Image Margin="38,94,529,495" Source="/RecetteDuJour;component/kaaku3.jpg" Stretch="Fill"/>
         <Image Margin="528,91,39,495" Source="/RecetteDuJour;component/kaaku4.jpg" Stretch="Fill"/>
 
