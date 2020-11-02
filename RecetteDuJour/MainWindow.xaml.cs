@@ -30,7 +30,7 @@ namespace RecetteDuJour
         private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             recette fenetre = new recette();
-            fenetre.Show();
+            fenetre.Show() ;     
         }
     }
 }
