@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecetteDuJour.UI"
         mc:Ignorable="d"
-        Title="recette"  Height="853.427" Width="801.349">
+        Title="recette"  Height="901.427" Width="801.349">
     <Grid Margin="0,0,0.2,-4">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -15,17 +15,17 @@
         </Grid.Background>
         <TextBlock HorizontalAlignment="Left" Height="43" Margin="73,33,0,0" Background="#FFE7E11F" TextWrapping="Wrap" VerticalAlignment="Top" Width="664" FontFamily="Lucida Calligraphy" FontSize="30" Foreground= "Red" TextDecorations="{x:Null}" FontWeight="Bold" FontStyle="Italic"><Run Text="DECOUVREZ NOS RECETTES LOCALES "/><Run Text=" "/></TextBlock>
         <Label x:Name="titre" Content="kAAKU" FontSize="50" Foreground="#FFFF" FontWeight="Bold" HorizontalAlignment="Left" Margin="300,94,0,0" VerticalAlignment="Top" Width="177" Height="57" FontFamily="Pristina"/>
-        <Button Content="Enregistrer" FontSize="20  " HorizontalAlignment="Left" Margin="637,755,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
-     
-        <Button Content="Modifier" FontSize="20  " HorizontalAlignment="Left" Margin="472,755,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
-        <Button Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="300,755,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
-        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20" Margin="18,429,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269"  FontFamily="Lucida Handwriting"/>
-        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20" Margin="287,429,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="488" FontFamily="Lucida Handwriting"/>
-        <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="18,365,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
-        <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,365,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
-        <Image x:Name="kaaku" Margin="287,156,298,468" Source="/RecetteDuJour;component/kaaku.jpg" Stretch="Fill"/>
-        <Image Margin="38,94,529,495" Source="/RecetteDuJour;component/kaaku3.jpg" Stretch="Fill"/>
-        <Image Margin="528,91,39,495" Source="/RecetteDuJour;component/kaaku4.jpg" Stretch="Fill"/>
+        <Button x:Name="enregistre" Content="Enregistrer" FontSize="20  " HorizontalAlignment="Left" Margin="637,820,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <Button x:Name="modifier" Content="Modifier" FontSize="20  " HorizontalAlignment="Left" Margin="477,820,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <Button x:Name="imprimer" Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="310,820,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="18,433,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20" Margin="18,481,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269"  FontFamily="Lucida Handwriting"/>
+        <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,433,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="311" FontSize="20" Margin="287,481,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="488" FontFamily="Lucida Handwriting"/>
+        <Image x:Name="kaaku" Margin="287,156,298,538" Source="/RecetteDuJour;component/kaaku.jpg" Stretch="Fill"/>
+        <Image Margin="38,94,529,573" Source="/RecetteDuJour;component/kaaku3.jpg" Stretch="Fill"/>
+        <Image Margin="528,91,39,573" Source="/RecetteDuJour;component/kaaku4.jpg" Stretch="Fill"/>
+        <Label x:Name="menu" Content="Menu :" HorizontalAlignment="Left" Margin="64,325,0,0" VerticalAlignment="Top" FontFamily="Script MT Bold" FontSize="35"/>
 
 
 
