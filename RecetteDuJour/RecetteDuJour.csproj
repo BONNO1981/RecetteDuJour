@@ -108,8 +108,8 @@
     <Compile Include="PageRecette2.xaml.cs">
       <DependentUpon>PageRecette2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UI\recette.xaml.cs">
-      <DependentUpon>recette.xaml</DependentUpon>
+    <Compile Include="UI\recetteSaisie.xaml.cs">
+      <DependentUpon>recetteSaisie.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -127,9 +127,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UI\recette.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="UI\recetteSaisie.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
