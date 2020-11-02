@@ -17,7 +17,7 @@ namespace RecetteDuJour.metiers
             String connString = "Server=localhost;Database=recette;userid=root;Pwd=";
             connection = new MySqlConnection(connString);
         }
-        public static void GetAllRecette()
+        public static void GetRecette()
         {
 
             // on prepare la requête
@@ -39,7 +39,7 @@ namespace RecetteDuJour.metiers
                         string Preparation = dbReader.GetString(6);
 
                         Recette rp = new Recette(Nom, Image, Categorie, NbPersonne, Ingredients, Preparation);
-                        rp.Id = id;
+                        rp.Id = Id;
 
                         Business.Recettes.Add(rp);
 

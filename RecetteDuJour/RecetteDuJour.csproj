@@ -165,6 +165,9 @@
     <Resource Include="kaaku.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="kaaku3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="kaaku4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
