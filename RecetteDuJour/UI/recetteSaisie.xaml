@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecetteDuJour.UI"
         mc:Ignorable="d"
-        Title="recette"  Height="901.427" Width="801.349">
+        Title="recette"  Height="744.309" Width="801.349">
     <Grid Margin="0,0,0.2,-4">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -15,20 +15,20 @@
         </Grid.Background>
         <TextBlock HorizontalAlignment="Left" Height="43" Margin="73,33,0,0" Background="#FFE7E11F" TextWrapping="Wrap" VerticalAlignment="Top" Width="664" FontFamily="Lucida Calligraphy" FontSize="30" Foreground= "Red" TextDecorations="{x:Null}" FontWeight="Bold" FontStyle="Italic"><Run Text="DECOUVREZ NOS RECETTES LOCALES "/><Run Text=" "/></TextBlock>
         <Label x:Name="titre" Content="kAAKU" FontSize="50" Foreground="#FFFF" FontWeight="Bold" HorizontalAlignment="Left" Margin="300,94,0,0" VerticalAlignment="Top" Width="177" Height="57" FontFamily="Pristina"/>
-        <Button x:Name="enregistre" Content="Enregistrer" FontSize="20  " HorizontalAlignment="Left" Margin="637,820,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
-        <Button x:Name="modifier" Content="Modifier" FontSize="20  " HorizontalAlignment="Left" Margin="477,820,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
-        <Button x:Name="imprimer" Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="310,820,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
-        <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="18,433,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
-        <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,433,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
-        <Image x:Name="kaaku" Margin="287,156,298,538" Source="/RecetteDuJour;component/kaaku.jpg" Width="250" Height="200"/>
-        <Image Margin="18,94,527,582" Source="/RecetteDuJour;component/kaaku3.jpg" Width="250" Height="200"/>
-        <Image Margin="528,91,39,573" Source="/RecetteDuJour;component/kaaku4.jpg" Width="250" Height="200" />
+        <Button x:Name="enregistre" Content="Enregistrer" FontSize="20  " HorizontalAlignment="Left" Margin="613,654,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <Button x:Name="modifier" Content="Modifier" FontSize="20  " HorizontalAlignment="Left" Margin="457,654,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <Button x:Name="imprimer" Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="300,654,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
+        <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="10,400,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
+        <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,400,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
+        <Image x:Name="kaaku" Margin="278,156,267,449" Source="/RecetteDuJour;component/kaaku.jpg" Width="250"/>
+        <Image Margin="18,94,527,498" Source="/RecetteDuJour;component/kaaku3.jpg" Width="250" Height="200"/>
+        <Image Margin="520,94,25,498" Source="/RecetteDuJour;component/kaaku4.jpg" Width="250" Height="200" />
 
         <Label x:Name="menu"  Content="" HorizontalAlignment="Left" Margin="135,343,0,0" VerticalAlignment="Top" Height="37" Width="264"/>
-        <TextBlock x:Name="preparations" HorizontalAlignment="Left" Margin="292,484,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="308" Width="483" Background="White"/>
-        <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,484,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="308" Width="274" Background="White"/>
-        <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="18,380,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576"/>
-        
+        <TextBlock x:Name="preparations" HorizontalAlignment="Left" Margin="287,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="167" Width="483" Background="White"/>
+        <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="167" Width="274" Background="White"/>
+        <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="10,356,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576"/>
+
 
 
 
