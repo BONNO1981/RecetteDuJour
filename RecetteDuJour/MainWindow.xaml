@@ -23,8 +23,14 @@
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="293,361,0,0" TextWrapping="Wrap" Text="NOS VIANDES" VerticalAlignment="Top" Width="230"  Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="547,360,0,0" TextWrapping="Wrap" Text="NOS CHEVRES" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="800,359,0,0" TextWrapping="Wrap" Text="NOS FRUITS DE MER" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="16"/>
-        <TextBlock x:Name="menuViandes" HorizontalAlignment="Left" Height="105" Margin="294,407,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDown="menuViandes_MouseDoubleClick"/>
-        <TextBlock x:Name="menuChevres" HorizontalAlignment="Left" Height="107" Margin="549,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDown="menuChevres_MouseDoubleClick"/>
+        <ListBox x:Name="viandescategorie" HorizontalAlignment="Left" Margin="40,405,0,0"  VerticalAlignment="Top" Height="105" Width="239" MouseDown="viandescategorie_MouseDown"  >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nom}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock x:Name="menuChevres" HorizontalAlignment="Left" Height="107" Margin="549,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDown="menuChevres_MouseDoubleClick" />
         <TextBlock x:Name="menuFruitsMer" HorizontalAlignment="Left" Height="107" Margin="801,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDown="menuFruitsMer_MouseDoubleClick"/>
         <Label Content="&#x9;VENEZ NOMBREUX DEGUSTER A NOS MERVEILLEUSES " HorizontalAlignment="Left" Margin="38,775,0,0" VerticalAlignment="Top" Width="997" Height="38" FontFamily="Snap ITC" FontSize="24" Foreground="#FFC02626"/>
         <Label Content="local avec comme accompagnement principal le :" HorizontalAlignment="Left" Height="35" Margin="261,200,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" Foreground="#FF3EDFE8"/>
@@ -35,8 +41,14 @@
         <Label Content="TEL : 40.920.659 , VINI : 87.336.554 OU ENCORE PAR MAIL : kaiNKH@gmail.com" HorizontalAlignment="Left" Margin="192,943,0,0" VerticalAlignment="Top" Width="681" FontFamily="Mongolian Baiti" FontSize="18" FontStyle="Italic" FontWeight="Bold" Foreground="#FF243BE4"/>
         <Image x:Name="kaakuKeekee" Margin="45,192,820.2,665.6" Source="/Ressources/kaakukeekee.png" Stretch="Fill"/>
         <Image x:Name="Kaakutea" Margin="795,181,71.2,671.6" Source="/Ressources/PHOTO KAAKU BLANC.jpg" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Left" Margin="44,407,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="105" Width="235" MouseDown="TextBlock_MouseDown"/>
-        <Image x:Name="poissonimage" Margin="47,517,880.2,358.6" Source=""/>
+        <ListBox x:Name="poissoncategorie" HorizontalAlignment="Left" Margin="293,405,0,0"  VerticalAlignment="Top" Height="105" Width="230" MouseDown="TextBlock_MouseDown"  >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nom}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Image x:Name="poissonimage" Margin="47,517,880.2,358.6" Source="}"/>
         <Image x:Name="viandesimages" Margin="294,512,633.2,363.6" Source=""/>
         <Image x:Name="chevresimages" Margin="549,512,378.2,363.6" Source=""/>
         <Image x:Name="fdmimage" Margin="805,512,122.2,363.6" Source=""/>

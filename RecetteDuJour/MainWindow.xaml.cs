@@ -24,7 +24,12 @@ namespace RecetteDuJour
     {
         public MainWindow()
         {
+
+
             InitializeComponent();
+
+            RecetteAccess.GetRecette();
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
         }
 
 
@@ -32,9 +37,10 @@ namespace RecetteDuJour
 
         private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
+           //Recette item = poissoncategorie.SelectedItem as Recette;
+
             recette fenetre = new recette();
             fenetre.Show() ;  
-            
         }
 
         private void menuViandes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -59,6 +65,11 @@ namespace RecetteDuJour
         {
             recette fenetre = new recette();
             fenetre.Show();
+        }
+
+        private void viandescategorie_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }
