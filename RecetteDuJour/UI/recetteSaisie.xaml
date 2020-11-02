@@ -20,14 +20,15 @@
         <Button x:Name="imprimer" Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="310,820,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell"/>
         <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="18,433,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
         <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,433,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
-        <Image x:Name="kaaku" Margin="287,156,298,538" Source="/RecetteDuJour;component/kaaku.jpg" Stretch="Fill"/>
-        <Image Margin="38,94,529,573" Source="/RecetteDuJour;component/kaaku3.jpg" Stretch="Fill"/>
-        <Image Margin="528,91,39,573" Source="/RecetteDuJour;component/kaaku4.jpg" Stretch="Fill"/>
+        <Image x:Name="kaaku" Margin="287,156,298,538" Source="/RecetteDuJour;component/kaaku.jpg" Width="250" Height="200"/>
+        <Image Margin="18,94,527,582" Source="/RecetteDuJour;component/kaaku3.jpg" Width="250" Height="200"/>
+        <Image Margin="528,91,39,573" Source="/RecetteDuJour;component/kaaku4.jpg" Width="250" Height="200" />
+
         <Label x:Name="menu"  Content="" HorizontalAlignment="Left" Margin="135,343,0,0" VerticalAlignment="Top" Height="37" Width="264"/>
         <TextBlock x:Name="preparations" HorizontalAlignment="Left" Margin="292,484,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="308" Width="483" Background="White"/>
         <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,484,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="308" Width="274" Background="White"/>
         <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="18,380,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576"/>
-
+        
 
 
 
