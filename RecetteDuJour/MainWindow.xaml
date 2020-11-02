@@ -52,6 +52,22 @@
             </ListBox.ItemTemplate>
         </ListBox>
         
-       
+        <ListBox x:Name="chevrecategorie" HorizontalAlignment="Left" Margin="549,406,0,0"  VerticalAlignment="Top" Height="43" Width="230" MouseDoubleClick="chevrecategorie_MouseDoubleClick">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nom}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        
+        <ListBox x:Name="fruitdemercategorie" HorizontalAlignment="Left" Margin="800,406,0,0"  VerticalAlignment="Top" Height="43" Width="230" MouseDoubleClick="fruitdemercategorie_MouseDoubleClick">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nom}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
     </Grid>
 </Window>

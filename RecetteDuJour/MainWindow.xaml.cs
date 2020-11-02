@@ -30,9 +30,9 @@ namespace RecetteDuJour
 
             RecetteAccess.GetRecette();
             this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
-            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Viande");
-            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
-            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
+            this.viandecategorie.ItemsSource = Business.GetByCategorie("Viande");
+            this.fruitdemercategorie.ItemsSource = Business.GetByCategorie("Fruits de mers");
+            this.chevrecategorie.ItemsSource = Business.GetByCategorie("Chevre");
 
         }
 
@@ -56,6 +56,22 @@ namespace RecetteDuJour
         private void viandecategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             Recette item = viandecategorie.SelectedItem as Recette;
+
+            recetteSaisie fenetre = new recetteSaisie(item);
+            fenetre.Show();
+        }
+
+        private void chevrecategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Recette item = chevrecategorie.SelectedItem as Recette;
+
+            recetteSaisie fenetre = new recetteSaisie(item);
+            fenetre.Show();
+        }
+
+        private void fruitdemercategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Recette item = fruitdemercategorie.SelectedItem as Recette;
 
             recetteSaisie fenetre = new recetteSaisie(item);
             fenetre.Show();
