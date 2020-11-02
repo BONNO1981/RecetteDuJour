@@ -23,7 +23,7 @@
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="293,361,0,0" TextWrapping="Wrap" Text="NOS VIANDES" VerticalAlignment="Top" Width="230"  Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="547,360,0,0" TextWrapping="Wrap" Text="NOS CHEVRES" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="800,359,0,0" TextWrapping="Wrap" Text="NOS FRUITS DE MER" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="16"/>
-        <ListBox x:Name="viandescategorie" HorizontalAlignment="Left" Margin="40,405,0,0"  VerticalAlignment="Top" Height="105" Width="239" MouseDoubleClick="viandescategorie_MouseDoubleClick"  >
+        <ListBox x:Name="poissoncategorie" HorizontalAlignment="Left" Margin="40,405,0,0"  VerticalAlignment="Top" Height="43" Width="239" MouseDoubleClick="viandescategorie_MouseDoubleClick"  >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding Nom}"/>
@@ -41,7 +41,7 @@
         <Label Content="TEL : 40.920.659 , VINI : 87.336.554 OU ENCORE PAR MAIL : kaiNKH@gmail.com" HorizontalAlignment="Left" Margin="192,943,0,0" VerticalAlignment="Top" Width="681" FontFamily="Mongolian Baiti" FontSize="18" FontStyle="Italic" FontWeight="Bold" Foreground="#FF243BE4"/>
         <Image x:Name="kaakuKeekee" Margin="45,192,820.2,665.6" Source="/Ressources/kaakukeekee.png" Stretch="Fill"/>
         <Image x:Name="Kaakutea" Margin="795,181,71.2,671.6" Source="/Ressources/PHOTO KAAKU BLANC.jpg" Stretch="Fill"/>
-        <ListBox x:Name="poissoncategorie" HorizontalAlignment="Left" Margin="293,405,0,0"  VerticalAlignment="Top" Height="105" Width="230" MouseDoubleClick="poissoncategorie_MouseDoubleClick" >
+        <ListBox x:Name="viandecategorie" HorizontalAlignment="Left" Margin="293,405,0,0"  VerticalAlignment="Top" Height="43" Width="230" MouseDoubleClick="poissoncategorie_MouseDoubleClick" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding Nom}"/>

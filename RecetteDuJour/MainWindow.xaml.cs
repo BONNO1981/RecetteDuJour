@@ -30,13 +30,17 @@ namespace RecetteDuJour
 
             RecetteAccess.GetRecette();
             this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Viande");
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
+
         }
 
         private void poissoncategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            //Recette item = poissoncategorie.SelectedItem as Recette;
+            Recette item = poissoncategorie.SelectedItem as Recette;
 
-            recetteSaisie fenetre = new recetteSaisie();
+            recetteSaisie fenetre = new recetteSaisie(item);
             fenetre.Show() ;  
         }
 
