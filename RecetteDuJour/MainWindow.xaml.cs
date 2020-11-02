@@ -1,4 +1,6 @@
 ﻿using System;
+using RecetteDuJour.UI;
+using RecetteDuJour.metiers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,19 +27,28 @@ namespace RecetteDuJour
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-
+            recette fenetre = new recette();
+            fenetre.Show() ;     
         }
 
-        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        private void menuViandes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-
+            recette fenetre = new recette();
+            fenetre.Show();
         }
 
-        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        private void menuChevres_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
+            recette fenetre = new recette();
+            fenetre.Show();
+        }
 
+        private void menuFruitsMer_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            recette fenetre = new recette();    
+            fenetre.Show() ;
         }
     }
 }
