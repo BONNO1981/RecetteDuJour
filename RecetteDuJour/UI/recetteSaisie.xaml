@@ -22,8 +22,8 @@
         <Button x:Name="enregistre" Content="Enregistrer" FontSize="20  " HorizontalAlignment="Left" Margin="613,41.467,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell" Grid.Row="1"/>
         <Button x:Name="modifier" Content="Modifier" FontSize="20  " HorizontalAlignment="Left" Margin="457,41.467,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell" Grid.Row="1"/>
         <Button x:Name="imprimer" Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="300,41.467,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell" Grid.Row="1"/>
-        <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="10,400,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
-        <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,400,0,0" VerticalAlignment="Top" Height="64" Width="230" FontFamily="Script MT Bold"/>
+        <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="10,400,0,0" VerticalAlignment="Top" Height="64" Width="239" FontFamily="Script MT Bold"/>
+        <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,400,0,0" VerticalAlignment="Top" Height="64" Width="241" FontFamily="Script MT Bold"/>
         <Image x:Name="kaaku" Margin="278,156,267,343.533" Source="/RecetteDuJour;component/kaaku.jpg" Width="250"/>
         <Image Margin="18,94,527,318.533" Source="/RecetteDuJour;component/kaaku3.jpg" Width="250" Height="200"/>
         <Image Margin="520,94,25,318.533" Source="/RecetteDuJour;component/kaaku4.jpg" Width="250" Height="200" />
