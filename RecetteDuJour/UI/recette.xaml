@@ -25,7 +25,7 @@
         <Image x:Name="kaaku" Margin="287,156,298,538" Source="/RecetteDuJour;component/kaaku.jpg" Stretch="Fill"/>
         <Image Margin="38,94,529,573" Source="/RecetteDuJour;component/kaaku3.jpg" Stretch="Fill"/>
         <Image Margin="528,91,39,573" Source="/RecetteDuJour;component/kaaku4.jpg" Stretch="Fill"/>
-        <Label x:Name="menu" Content="Menu :" HorizontalAlignment="Left" Margin="64,325,0,0" VerticalAlignment="Top" FontFamily="Script MT Bold" FontSize="35"/>
+        <TextBox x:Name="menu" HorizontalAlignment="Left" Height="45" Margin="18,361,0,0" TextWrapping="Wrap" Text="Menu :" VerticalAlignment="Top" Width="230" TextChanged="TextBox_TextChanged_2" FontFamily="Script MT Bold" FontSize="35"/>
 
 
 
