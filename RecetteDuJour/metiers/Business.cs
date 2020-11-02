@@ -10,7 +10,7 @@ namespace RecetteDuJour.metiers
     public class Business
     {
         public static ObservableCollection<Recette> Recettes { get; set; }
-
+           
 
         
 
