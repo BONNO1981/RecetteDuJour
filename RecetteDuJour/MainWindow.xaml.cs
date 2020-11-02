@@ -37,9 +37,9 @@ namespace RecetteDuJour
 
         private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-           //Recette item = poissoncategorie.SelectedItem as Recette;
+            //Recette item = poissoncategorie.SelectedItem as Recette;
 
-            recette fenetre = new recette();
+            recetteSaisie fenetre = new recetteSaisie();
             fenetre.Show() ;  
         }
 
@@ -64,7 +64,7 @@ namespace RecetteDuJour
 
         private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            recette fenetre = new recette();
+            recetteSaisie fenetre = new recetteSaisie();
             fenetre.Show();
         }
 

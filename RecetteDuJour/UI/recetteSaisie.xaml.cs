@@ -49,7 +49,7 @@ namespace RecetteDuJour.UI
             if (isEditMode == false)
             {
                 RecetteAccess.InsertRecette(rec);
-                business.tabRecettes.Add(rec);
+                //business.tabRecettes.Add(rec);
             }
             else
             {
