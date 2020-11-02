@@ -32,8 +32,8 @@
             </ListBox.ItemTemplate>
         </ListBox>
         
-        <TextBlock x:Name="menuChevres" HorizontalAlignment="Left" Height="107" Margin="549,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDown="menuChevres_MouseDoubleClick" />
-        <TextBlock x:Name="menuFruitsMer" HorizontalAlignment="Left" Height="107" Margin="801,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDown="menuFruitsMer_MouseDoubleClick"/>
+        <TextBlock x:Name="menuChevres" HorizontalAlignment="Left" Height="107" Margin="549,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228"  />
+        <TextBlock x:Name="menuFruitsMer" HorizontalAlignment="Left" Height="107" Margin="801,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" />
         <Label Content="&#x9;VENEZ NOMBREUX DEGUSTER A NOS MERVEILLEUSES " HorizontalAlignment="Left" Margin="38,775,0,0" VerticalAlignment="Top" Width="997" Height="38" FontFamily="Snap ITC" FontSize="24" Foreground="#FFC02626"/>
         <Label Content="local avec comme accompagnement principal le :" HorizontalAlignment="Left" Height="35" Margin="261,200,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" Foreground="#FF3EDFE8"/>
         <Label Content="&#x9;&quot;KAAKU KEEKEE&quot; ou &quot;KAAKU TEA&quot;." HorizontalAlignment="Left" Height="35" Margin="256,235,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" FontWeight="Bold" Foreground="#FFD7C02E"/>
