@@ -23,10 +23,8 @@
         <TextBox HorizontalAlignment="Left" Height="41" Margin="293,361,0,0" TextWrapping="Wrap" Text="NOS VIANDES" VerticalAlignment="Top" Width="230"  Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBox HorizontalAlignment="Left" Height="41" Margin="547,360,0,0" TextWrapping="Wrap" Text="NOS CHEVRES" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBox HorizontalAlignment="Left" Height="41" Margin="800,359,0,0" TextWrapping="Wrap" Text="NOS FRUITS DE MER" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="16"/>
-        <TextBox HorizontalAlignment="Left" Height="349" Margin="42,406,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="228"/>
         <TextBox x:Name="menuViandes" HorizontalAlignment="Left" Height="349" Margin="294,407,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDoubleClick="menuViandes_MouseDoubleClick"/>
         <TextBox x:Name="menuChevres" HorizontalAlignment="Left" Height="349" Margin="549,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDoubleClick="menuChevres_MouseDoubleClick"/>
-        <TextBox x:Name="menuPoissons" HorizontalAlignment="Left" Height="349" Margin="42,406,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237"  MouseDoubleClick="menuPoissons_MouseDoubleClick"/>
         <TextBox x:Name="menuFruitsMer" HorizontalAlignment="Left" Height="349" Margin="801,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" MouseDoubleClick="menuFruitsMer_MouseDoubleClick"/>
         <Label Content="&#x9;VENEZ NOMBREUX DEGUSTER A NOS MERVEILLEUSES " HorizontalAlignment="Left" Margin="38,775,0,0" VerticalAlignment="Top" Width="997" Height="38" FontFamily="Snap ITC" FontSize="24" Foreground="#FFC02626"/>
         <Label Content="local avec comme accompagnement principal le :" HorizontalAlignment="Left" Height="35" Margin="261,200,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" Foreground="#FF3EDFE8"/>
@@ -37,5 +35,6 @@
         <Label Content="TEL : 40.920.659 , VINI : 87.336.554 OU ENCORE PAR MAIL : kaiNKH@gmail.com" HorizontalAlignment="Left" Margin="192,943,0,0" VerticalAlignment="Top" Width="681" FontFamily="Mongolian Baiti" FontSize="18" FontStyle="Italic" FontWeight="Bold" Foreground="#FF243BE4"/>
         <Image x:Name="kaakuKeekee" Margin="45,192,820.2,665.6" Source="/Ressources/kaakukeekee.png" Stretch="Fill"/>
         <Image x:Name="Kaakutea" Margin="795,181,71.2,671.6" Source="/Ressources/PHOTO KAAKU BLANC.jpg" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="44,407,0,0" TextWrapping="Wrap" Text="kcoesk,cled,kqc,kds,nckl,eqkc,kelqnc klesnq ckln ekqlnckleq" VerticalAlignment="Top" Height="52" Width="235" MouseDown="TextBlock_MouseDown"/>
     </Grid>
 </Window>

@@ -27,10 +27,14 @@ namespace RecetteDuJour
             InitializeComponent();
         }
 
+
+
+
         private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             recette fenetre = new recette();
-            fenetre.Show() ;     
+            fenetre.Show() ;  
+            
         }
 
         private void menuViandes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -49,6 +53,12 @@ namespace RecetteDuJour
         {
             recette fenetre = new recette();    
             fenetre.Show() ;
+        }
+
+        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            recette fenetre = new recette();
+            fenetre.Show();
         }
     }
 }
