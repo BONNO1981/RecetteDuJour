@@ -24,13 +24,23 @@ namespace RecetteDuJour
     {
         public MainWindow()
         {
+
+
             InitializeComponent();
+
+            RecetteAccess.GetRecette();
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
         }
+
+
+
 
         private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            recetteSaisie fenetre = new recetteSaisie();
-            fenetre.Show() ;     
+           //Recette item = poissoncategorie.SelectedItem as Recette;
+
+            recette fenetre = new recette();
+            fenetre.Show() ;  
         }
 
         private void menuViandes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -50,6 +60,17 @@ namespace RecetteDuJour
             Recette r = new Recette("Poisson frit", @"C:\Users\kiite\Pictures\Hang loose.png", "Poissons", 3, "possons machin tomates", "fait tout le machin rajoute le bidul et voila");
             recetteSaisie fenetre = new recetteSaisie(r);
             fenetre.Show() ;
+        }
+
+        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            recette fenetre = new recette();
+            fenetre.Show();
+        }
+
+        private void viandescategorie_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }
