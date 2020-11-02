@@ -1,4 +1,4 @@
-﻿<Window x:Class="RecetteDuJour.UI.recette"
+﻿<Window x:Class="RecetteDuJour.UI.recetteSaisie"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -23,11 +23,12 @@
         <Image x:Name="kaaku" Margin="287,156,298,538" Source="/RecetteDuJour;component/kaaku.jpg" Width="250" Height="200"/>
         <Image Margin="18,94,527,582" Source="/RecetteDuJour;component/kaaku3.jpg" Width="250" Height="200"/>
         <Image Margin="528,91,39,573" Source="/RecetteDuJour;component/kaaku4.jpg" Width="250" Height="200" />
-        <Label Content="Menu :" HorizontalAlignment="Left" Margin="18,336,0,0" VerticalAlignment="Top" FontFamily="Script MT Bold" FontSize="35"/>
-        <Label x:Name="menu" Content="" HorizontalAlignment="Left" Margin="135,343,0,0" VerticalAlignment="Top" Height="37" Width="264"/>
-        <TextBlock HorizontalAlignment="Left" Margin="292,484,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="308" Width="483" Background="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="18,484,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="308" Width="274" Background="White"/>
 
+        <Label x:Name="menu"  Content="" HorizontalAlignment="Left" Margin="135,343,0,0" VerticalAlignment="Top" Height="37" Width="264"/>
+        <TextBlock x:Name="preparations" HorizontalAlignment="Left" Margin="292,484,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="308" Width="483" Background="White"/>
+        <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,484,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="308" Width="274" Background="White"/>
+        <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="18,380,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576"/>
+        
 
 
 

@@ -30,46 +30,51 @@ namespace RecetteDuJour
 
             RecetteAccess.GetRecette();
             this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
-        }
+            this.viandecategorie.ItemsSource = Business.GetByCategorie("Viande");
+            this.fruitdemercategorie.ItemsSource = Business.GetByCategorie("Fruits de mers");
+            this.chevrecategorie.ItemsSource = Business.GetByCategorie("Chèvre");
 
-
-
-
-        private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-           //Recette item = poissoncategorie.SelectedItem as Recette;
-
-            recette fenetre = new recette();
-            fenetre.Show() ;  
-        }
-
-        private void menuViandes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            recette fenetre = new recette();
-            fenetre.Show();
-        }
-
-        private void menuChevres_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            recette fenetre = new recette();
-            fenetre.Show();
         }
 
         private void menuFruitsMer_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            recette fenetre = new recette();    
+            Recette r = new Recette("Poisson frit", @"C:\Users\kiite\Pictures\Hang loose.png", "Poissons", 3, "possons machin tomates", "fait tout le machin rajoute le bidul et voila");
+            recetteSaisie fenetre = new recetteSaisie(r);
             fenetre.Show() ;
         }
 
-        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+    
+
+        private void poissoncategorie_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
         {
-            recette fenetre = new recette();
+            Recette item = poissoncategorie.SelectedItem as Recette;
+
+            recetteSaisie fenetre = new recetteSaisie(item);
             fenetre.Show();
         }
 
-        private void viandescategorie_MouseDown(object sender, MouseButtonEventArgs e)
+        private void viandecategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
+            Recette item = viandecategorie.SelectedItem as Recette;
 
+            recetteSaisie fenetre = new recetteSaisie(item);
+            fenetre.Show();
+        }
+
+        private void chevrecategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Recette item = chevrecategorie.SelectedItem as Recette;
+
+            recetteSaisie fenetre = new recetteSaisie(item);
+            fenetre.Show();
+        }
+
+        private void fruitdemercategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Recette item = fruitdemercategorie.SelectedItem as Recette;
+
+            recetteSaisie fenetre = new recetteSaisie(item);
+            fenetre.Show();
         }
     }
 }
