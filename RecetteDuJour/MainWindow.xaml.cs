@@ -39,5 +39,20 @@ namespace RecetteDuJour
         {
 
         }
+
+        private void TextBox_TextChanged_3(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_4(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_5(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
