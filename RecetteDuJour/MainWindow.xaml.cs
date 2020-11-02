@@ -32,44 +32,21 @@ namespace RecetteDuJour
             this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
         }
 
-
-
-
-        private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void poissoncategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-           //Recette item = poissoncategorie.SelectedItem as Recette;
-
-            recette fenetre = new recette();
-            fenetre.Show() ;  
+           recette fenetre = new recette();
+        fenetre.Show() ; 
         }
 
-        private void menuViandes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void viandescategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             recette fenetre = new recette();
-            fenetre.Show();
+                    fenetre.Show() ; 
         }
 
-        private void menuChevres_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            recette fenetre = new recette();
-            fenetre.Show();
-        }
+        
 
-        private void menuFruitsMer_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            recette fenetre = new recette();    
-            fenetre.Show() ;
-        }
 
-        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            recette fenetre = new recette();
-            fenetre.Show();
-        }
 
-        private void viandescategorie_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
     }
 }
