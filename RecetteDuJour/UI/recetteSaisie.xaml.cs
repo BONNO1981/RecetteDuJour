@@ -57,5 +57,14 @@ namespace RecetteDuJour.UI
             }
 
         }
+        //private void enregistrer_Click(object sender, RoutedEventArgs e)
+        //{
+        //    recupDonnees();
+        //
+        //
+        //    Business. Enregistrer();
+        //    this.Close();
+        //}
+
     }
 }
