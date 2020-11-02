@@ -1,4 +1,6 @@
 ﻿using System;
+using RecetteDuJour.UI;
+using RecetteDuJour.metiers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,22 +24,41 @@ namespace RecetteDuJour
     {
         public MainWindow()
         {
+
+
             InitializeComponent();
-        }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
-        {
+            RecetteAccess.GetRecette();
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Viande");
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
+            this.poissoncategorie.ItemsSource = Business.GetByCategorie("Poissons");
 
         }
 
-        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        private void menuFruitsMer_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
+            Recette r = new Recette("Poisson frit", @"C:\Users\kiite\Pictures\Hang loose.png", "Poissons", 3, "possons machin tomates", "fait tout le machin rajoute le bidul et voila");
+            recetteSaisie fenetre = new recetteSaisie(r);
+            fenetre.Show() ;
+        }
 
+    
+
+        private void poissoncategorie_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        {
+            Recette item = poissoncategorie.SelectedItem as Recette;
+
+            recetteSaisie fenetre = new recetteSaisie(item);
+            fenetre.Show();
+        }
+
+        private void viandecategorie_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Recette item = viandecategorie.SelectedItem as Recette;
+
+            recetteSaisie fenetre = new recetteSaisie(item);
+            fenetre.Show();
         }
 
         private void TextBox_TextChanged_3(object sender, TextChangedEventArgs e)
