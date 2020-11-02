@@ -47,7 +47,7 @@ namespace RecetteDuJour
 
         private void menuFruitsMer_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            recette fenetre = new recette();
+            recette fenetre = new recette();    
             fenetre.Show();
         }
     }
