@@ -29,25 +29,26 @@ namespace RecetteDuJour
 
         private void menuPoissons_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            recette fenetre = new recette();
+            recetteSaisie fenetre = new recetteSaisie();
             fenetre.Show() ;     
         }
 
         private void menuViandes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            recette fenetre = new recette();
+            recetteSaisie fenetre = new recetteSaisie();
             fenetre.Show();
         }
 
         private void menuChevres_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            recette fenetre = new recette();
+            recetteSaisie fenetre = new recetteSaisie();
             fenetre.Show();
         }
 
         private void menuFruitsMer_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            recette fenetre = new recette();    
+            Recette r = new Recette("Poisson frit", @"C:\Users\kiite\Pictures\Hang loose.png", "Poissons", 3, "possons machin tomates", "fait tout le machin rajoute le bidul et voila");
+            recetteSaisie fenetre = new recetteSaisie(r);
             fenetre.Show() ;
         }
     }

@@ -27,5 +27,8 @@ namespace RecetteDuJour.metiers
             this.Preparation = Preparation;
         }
 
+        public Recette()
+        {
+        }
     }
 }
