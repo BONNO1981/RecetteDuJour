@@ -77,9 +77,14 @@ namespace RecetteDuJour
             fenetre.Show();
         }
 
-        private void poissoncategorie_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            Recette kaaku = Business.GetById(2);
+            if(kaaku != null){
+            recetteSaisie fenetre = new recetteSaisie(kaaku);
+            fenetre.Show();
+            }
+           
         }
     }
 }

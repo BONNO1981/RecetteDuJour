@@ -17,14 +17,16 @@
         <Label Content="Là où TOUT est BON à MANGER!!!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="92,97,0,0" Width="881" FontSize="42" FontStyle="Italic" FontFamily="Snap ITC" Background="#FFE2CB3D"/>
         <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="193" Margin="47,184,0,0" Source="/Ressources/kaakukeekee.png" />
         <Label Content="Chers clients, nous vous proposons des plats typiquement " HorizontalAlignment="Left" Height="35" Margin="265,168,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" Foreground="#FF1DD0CC"/>
-        <Image HorizontalAlignment="Left" Height="140" Margin="805,194,0,0" VerticalAlignment="Top" Width="219" Source="/Ressources/PHOTO KAAKU BLANC.jpg"/>
+        
+        <Image HorizontalAlignment="Left" Height="140" Margin="805,194,0,0" VerticalAlignment="Top" Width="219" Source="/Ressources/PHOTO KAAKU BLANC.jpg" MouseDown="Image_MouseDown"/>
+        
         <Label Content="NOS MENUS" HorizontalAlignment="Left" Height="47" Margin="422,293,0,0" VerticalAlignment="Top" Width="260" FontFamily="Snap ITC" FontSize="32" Background="Black" Foreground="#FFD03FCB"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="40,361,0,0" TextWrapping="Wrap" Text="NOS POISSONS" VerticalAlignment="Top" Width="239"  Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="293,361,0,0" TextWrapping="Wrap" Text="NOS VIANDES" VerticalAlignment="Top" Width="230"  Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="547,360,0,0" TextWrapping="Wrap" Text="NOS CHEVRES" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="800,359,0,0" TextWrapping="Wrap" Text="NOS FRUITS DE MER" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="16"/>
         
-        <ListBox x:Name="poissoncategorie" HorizontalAlignment="Left" Margin="40,405,0,0"  VerticalAlignment="Top" Height="43" Width="239" MouseDoubleClick="poissoncategorie_MouseDoubleClick_1" SelectionChanged="poissoncategorie_SelectionChanged"  >
+        <ListBox x:Name="poissoncategorie" HorizontalAlignment="Left" Margin="40,405,0,0"  VerticalAlignment="Top" Height="43" Width="239" MouseDoubleClick="poissoncategorie_MouseDoubleClick_1" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding Nom}"/>
@@ -63,7 +65,10 @@
         <ListBox x:Name="fruitdemercategorie" HorizontalAlignment="Left" Margin="800,406,0,0"  VerticalAlignment="Top" Height="43" Width="230" MouseDoubleClick="fruitdemercategorie_MouseDoubleClick">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding Nom}"/>
+                    <StackPanel>
+                            <TextBlock Text="{Binding Nom}"/>
+                        <Image Source="{Binding Image}"></Image>
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
