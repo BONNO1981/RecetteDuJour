@@ -79,12 +79,23 @@ namespace RecetteDuJour
 
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            Recette kaaku = Business.GetById(2);
+            Recette kaaku = Business.GetById(6);
             if(kaaku != null){
             recetteSaisie fenetre = new recetteSaisie(kaaku);
             fenetre.Show();
             }
            
+        }
+
+        private void kaakunoir_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Recette kaaku = Business.GetById(7);
+            if (kaaku != null)
+            {
+                recetteSaisie fenetre = new recetteSaisie(kaaku);
+                fenetre.Show();
+            }
+
         }
     }
 }
