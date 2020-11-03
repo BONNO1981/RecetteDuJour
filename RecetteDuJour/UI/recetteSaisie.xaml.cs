@@ -57,6 +57,11 @@ namespace RecetteDuJour.UI
             }
 
         }
+
+        private void title_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
         //private void enregistrer_Click(object sender, RoutedEventArgs e)
         //{
         //    recupDonnees();
