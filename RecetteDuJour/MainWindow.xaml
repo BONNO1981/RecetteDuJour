@@ -15,9 +15,9 @@
         </Grid.Background>
         <Label Content="BIENVENUE AU SNACK KAIKAAKU" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="44,22,0,0" Width="980" FontFamily="Snap ITC" FontSize="46" Foreground="#FFE71B1B" Background="#FFE7E11F"/>
         <Label Content="Là où TOUT est BON à MANGER!!!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="92,97,0,0" Width="881" FontSize="42" FontStyle="Italic" FontFamily="Snap ITC" Background="#FFE2CB3D"/>
-        <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="193" Margin="47,184,0,0"/>
+        <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="193" Margin="47,184,0,0" Source="/Ressources/kaakukeekee.png" />
         <Label Content="Chers clients, nous vous proposons des plats typiquement " HorizontalAlignment="Left" Height="35" Margin="265,168,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" Foreground="#FF1DD0CC"/>
-        <Image HorizontalAlignment="Left" Height="140" Margin="805,194,0,0" VerticalAlignment="Top" Width="219"/>
+        <Image HorizontalAlignment="Left" Height="140" Margin="805,194,0,0" VerticalAlignment="Top" Width="219" Source="/Ressources/PHOTO KAAKU BLANC.jpg"/>
         <Label Content="NOS MENUS" HorizontalAlignment="Left" Height="47" Margin="422,293,0,0" VerticalAlignment="Top" Width="260" FontFamily="Snap ITC" FontSize="32" Background="Black" Foreground="#FFD03FCB"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="40,361,0,0" TextWrapping="Wrap" Text="NOS POISSONS" VerticalAlignment="Top" Width="239"  Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="293,361,0,0" TextWrapping="Wrap" Text="NOS VIANDES" VerticalAlignment="Top" Width="230"  Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
