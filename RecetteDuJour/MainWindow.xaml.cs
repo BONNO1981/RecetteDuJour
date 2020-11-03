@@ -76,5 +76,10 @@ namespace RecetteDuJour
             recetteSaisie fenetre = new recetteSaisie(item);
             fenetre.Show();
         }
+
+        private void poissoncategorie_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

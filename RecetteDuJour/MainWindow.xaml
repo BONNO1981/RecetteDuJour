@@ -24,7 +24,7 @@
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="547,360,0,0" TextWrapping="Wrap" Text="NOS CHEVRES" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="24"/>
         <TextBlock HorizontalAlignment="Left" Height="41" Margin="800,359,0,0" TextWrapping="Wrap" Text="NOS FRUITS DE MER" VerticalAlignment="Top" Width="230" Background="#FFDBF03E" FontFamily="Snap ITC" FontSize="16"/>
         
-        <ListBox x:Name="poissoncategorie" HorizontalAlignment="Left" Margin="40,405,0,0"  VerticalAlignment="Top" Height="43" Width="239" MouseDoubleClick="poissoncategorie_MouseDoubleClick_1"  >
+        <ListBox x:Name="poissoncategorie" HorizontalAlignment="Left" Margin="40,405,0,0"  VerticalAlignment="Top" Height="43" Width="239" MouseDoubleClick="poissoncategorie_MouseDoubleClick_1" SelectionChanged="poissoncategorie_SelectionChanged"  >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding Nom}"/>
