@@ -25,13 +25,13 @@
         <Label Content="Ingrédients :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="10,400,0,0" VerticalAlignment="Top" Height="64" Width="239" FontFamily="Script MT Bold"/>
         <Label Content="Préparation :" FontSize="40" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,400,0,0" VerticalAlignment="Top" Height="64" Width="241" FontFamily="Script MT Bold"/>
         <Image x:Name="kaaku" Margin="278,156,267,343.533" Source="/RecetteDuJour;component/kaaku.jpg" Width="250"/>
-        <Image Margin="18,94,527,318.533" Source="/RecetteDuJour;component/kaaku3.jpg" Width="250" Height="200"/>
         <Image Margin="520,94,25,318.533" Source="/RecetteDuJour;component/kaaku4.jpg" Width="250" Height="200" />
 
         <Label x:Name="menu"  Content="" HorizontalAlignment="Left" Margin="135,343,0,0" VerticalAlignment="Top" Height="37" Width="264"/>
         <TextBlock x:Name="preparations" HorizontalAlignment="Left" Margin="287,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="167" Width="483" Background="White" Grid.RowSpan="2"/>
         <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="167" Width="264" Background="White" Grid.RowSpan="2"/>
         <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="10,356,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576"/>
+        <Image HorizontalAlignment="Left" Height="175" Margin="41,121,0,0" VerticalAlignment="Top" Width="244" Source="/Ressources/kaakukeekee.png"/>
 
 
 
