@@ -33,7 +33,7 @@ namespace RecetteDuJour.UI
             InitializeComponent();
             isEditMode = true;
             rec = r;
-            this.nbrePers = rec.NbPersonne
+            this.nbrePers.Text = rec.NbPersonne.ToString();
             this.title.Text = rec.Nom;
             this.ingredients.Text = rec.Ingredients;
             this.preparations.Text = rec.Preparation;
