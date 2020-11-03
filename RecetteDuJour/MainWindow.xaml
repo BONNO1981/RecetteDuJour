@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecetteDuJour"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1034.96" Width="1073.63">
+        Title="MainWindow" Height="803.36" Width="1073.63">
     <Grid Margin="0,0,-33.8,-0.4">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -34,13 +34,13 @@
         
         <TextBlock x:Name="menuChevres" HorizontalAlignment="Left" Height="107" Margin="549,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228"  />
         <TextBlock x:Name="menuFruitsMer" HorizontalAlignment="Left" Height="107" Margin="801,405,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228" />
-        <Label Content="&#x9;VENEZ NOMBREUX DEGUSTER A NOS MERVEILLEUSES " HorizontalAlignment="Left" Margin="38,775,0,0" VerticalAlignment="Top" Width="997" Height="38" FontFamily="Snap ITC" FontSize="24" Foreground="#FFC02626"/>
+        <Label Content="&#x9;VENEZ NOMBREUX DEGUSTER A NOS MERVEILLEUSES " HorizontalAlignment="Left" Margin="40,573,0,0" VerticalAlignment="Top" Width="997" Height="38" FontFamily="Snap ITC" FontSize="24" Foreground="#FFC02626"/>
         <Label Content="local avec comme accompagnement principal le :" HorizontalAlignment="Left" Height="35" Margin="261,200,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" Foreground="#FF3EDFE8"/>
         <Label Content="&#x9;&quot;KAAKU KEEKEE&quot; ou &quot;KAAKU TEA&quot;." HorizontalAlignment="Left" Height="35" Margin="256,235,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" FontWeight="Bold" Foreground="#FFD7C02E"/>
-        <Label Content=" RECETTES MARQUISIENNES !!!" HorizontalAlignment="Left" Margin="295,816,0,0" VerticalAlignment="Top" Width="504" Height="38" FontFamily="Snap ITC" FontSize="24" Foreground="#FFBD3636"/>
-        <Label Content="POUR RESERVER VOS TABLES ET COMMANDER VOS PLATS A MANGER SUR PLACE OU A EMPORTER N'HESITEZ PAS A NOUS CONTACTER AU :" HorizontalAlignment="Left" Margin="64,883,0,0" VerticalAlignment="Top" Width="935" FontFamily="Mongolian Baiti" FontSize="16" FontStyle="Italic"/>
-        <Label Content=" N'HESITEZ PAS A NOUS CONTACTER AU :" HorizontalAlignment="Left" Margin="364,913,0,0" VerticalAlignment="Top" Width="325" FontFamily="Mongolian Baiti" FontSize="16" FontStyle="Italic"/>
-        <Label Content="TEL : 40.920.659 , VINI : 87.336.554 OU ENCORE PAR MAIL : kaiNKH@gmail.com" HorizontalAlignment="Left" Margin="192,943,0,0" VerticalAlignment="Top" Width="681" FontFamily="Mongolian Baiti" FontSize="18" FontStyle="Italic" FontWeight="Bold" Foreground="#FF243BE4"/>
+        <Label Content=" RECETTES MARQUISIENNES !!!" HorizontalAlignment="Left" Margin="293,616,0,0" VerticalAlignment="Top" Width="504" Height="38" FontFamily="Snap ITC" FontSize="24" Foreground="#FFBD3636"/>
+        <Label Content="POUR RESERVER VOS TABLES ET COMMANDER VOS PLATS A MANGER SUR PLACE OU A EMPORTER N'HESITEZ PAS A NOUS CONTACTER AU :" HorizontalAlignment="Left" Margin="63,659,0,0" VerticalAlignment="Top" Width="935" FontFamily="Mongolian Baiti" FontSize="16" FontStyle="Italic"/>
+        <Label Content=" N'HESITEZ PAS A NOUS CONTACTER AU :" HorizontalAlignment="Left" Margin="385,693,0,0" VerticalAlignment="Top" Width="325" FontFamily="Mongolian Baiti" FontSize="16" FontStyle="Italic"/>
+        <Label Content="TEL : 40.920.659 , VINI : 87.336.554 OU ENCORE PAR MAIL : kaiNKH@gmail.com" HorizontalAlignment="Left" Margin="192,727,0,0" VerticalAlignment="Top" Width="681" FontFamily="Mongolian Baiti" FontSize="18" FontStyle="Italic" FontWeight="Bold" Foreground="#FF243BE4"/>
         <Image x:Name="kaakuKeekee" Margin="45,192,820.2,665.6" Source="/Ressources/kaakukeekee.png" Stretch="Fill"/>
         <Image x:Name="Kaakutea" Margin="795,181,71.2,671.6" Source="/Ressources/PHOTO KAAKU BLANC.jpg" Stretch="Fill"/>
         
