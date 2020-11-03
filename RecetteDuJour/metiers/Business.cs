@@ -30,7 +30,18 @@ namespace RecetteDuJour.metiers
         }
 
                 
+        public static Recette GetById(int id)
+        {
+            foreach(Recette r in Recettes)
+            {
+                if(id == r.Id)
+                {
+                    return r;
+                }
+            }
 
+            return null;
+        }
 
     }
 

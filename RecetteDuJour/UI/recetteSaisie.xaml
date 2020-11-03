@@ -22,18 +22,18 @@
         <Button x:Name="enregistre" Content="Enregistrer" FontSize="20  " HorizontalAlignment="Left" Margin="613,41.467,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell" Grid.Row="1"/>
         <Button x:Name="modifier" Content="Modifier" FontSize="20  " HorizontalAlignment="Left" Margin="457,41.467,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell" Grid.Row="1"/>
         <Button x:Name="imprimer" Content="Imprimer" FontSize="20  " HorizontalAlignment="Left" Margin="300,41.467,0,0" VerticalAlignment="Top" Width="138" Height="46" FontFamily="Rockwell" Grid.Row="1"/>
-        <Label Content="Ingrédients :" FontSize="36" FontWeight="Medium" HorizontalAlignment="Left" Margin="18,400,0,0" VerticalAlignment="Top" Height="64" Width="239" FontFamily="Script MT Bold"/>
-        <Label Content="Préparation pour :" FontSize="36" FontWeight="Medium" HorizontalAlignment="Left" Margin="287,400,0,0" VerticalAlignment="Top" Height="64" Width="322" FontFamily="Script MT Bold"/>
+        <Label Content="Ingrédients :" FontSize="36" FontWeight="Medium" HorizontalAlignment="Left" Margin="20,379,0,0" VerticalAlignment="Top" Height="64" Width="239" FontFamily="Script MT Bold"/>
+        <Label Content="Préparation pour" FontSize="36" FontWeight="Medium" HorizontalAlignment="Left" Margin="280,379,0,0" VerticalAlignment="Top" Height="64" Width="264" FontFamily="Script MT Bold"/>
         <Image x:Name="kaaku" Margin="278,156,267,343.533" Source="/RecetteDuJour;component/kaaku.jpg" Width="250"/>
         <Image Margin="494,94,25,318.8" Source="/RecetteDuJour;component/kaaku4.jpg" Height="200" />
 
         <Label x:Name="menu"  Content="" HorizontalAlignment="Left" Margin="135,343,0,0" VerticalAlignment="Top" Height="37" Width="264"/>
-        <TextBlock x:Name="preparations" HorizontalAlignment="Left" Margin="287,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="167" Width="483" Background="White" Grid.RowSpan="2"/>
-        <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="167" Width="264" Background="White" Grid.RowSpan="2"/>
+        <TextBlock x:Name="preparations" HorizontalAlignment="Left" Margin="287,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="190" Width="483" Background="White" Grid.RowSpan="2"/>
+        <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="190" Width="264" Background="White" Grid.RowSpan="2"/>
         <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="18,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576" TextChanged="title_TextChanged"/>
         <Image HorizontalAlignment="Left" Height="175" Margin="41,121,0,0" VerticalAlignment="Top" Width="244" Source="/Ressources/kaakukeekee.png"/>
-        <TextBox x:Name="personne" HorizontalAlignment="Left" Height="32" Margin="565,414,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="57" IsEnabled="False" FontSize="36"/>
-        <Label Content="personnes" FontSize="36" FontWeight="Medium" Margin="627,400,22,0" VerticalAlignment="Top" Height="64" FontFamily="Script MT Bold"/>
+        <TextBox x:Name="nbrePers" HorizontalAlignment="Left" Height="32" Margin="543,395,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" IsEnabled="False" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Height="52" Margin="611,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"><Run FontSize="36" FontFamily="Script MT Bold" Text="personnes"/><Run FontSize="36" FontFamily="Script MT Bold" Text=" :"/><Run Text="."/></TextBlock>
 
 
 
