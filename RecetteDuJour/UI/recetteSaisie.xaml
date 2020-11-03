@@ -30,10 +30,9 @@
         <Label x:Name="menu"  Content="" HorizontalAlignment="Left" Margin="135,343,0,0" VerticalAlignment="Top" Height="37" Width="264"/>
         <TextBlock x:Name="preparations" HorizontalAlignment="Left" Margin="287,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="167" Width="483" Background="White" Grid.RowSpan="2"/>
         <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="167" Width="264" Background="White" Grid.RowSpan="2"/>
-        <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="18,328,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="403" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576" TextChanged="title_TextChanged"/>
+        <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="18,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576" TextChanged="title_TextChanged"/>
         <Image HorizontalAlignment="Left" Height="175" Margin="41,121,0,0" VerticalAlignment="Top" Width="244" Source="/Ressources/kaakukeekee.png"/>
-        <TextBox x:Name="nombre" HorizontalAlignment="Left" Height="34" Margin="571,414,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55" IsEnabled="False" TextAlignment="Center"/>
-        <Label Content="personnes" FontSize="36" FontWeight="Medium" HorizontalAlignment="Left" Margin="631,400,0,0" VerticalAlignment="Top" Height="64" Width="164" FontFamily="Script MT Bold" RenderTransformOrigin="0.462,0.481"/>
+        <TextBox x:Name="personne" HorizontalAlignment="Left" Height="32" Margin="598,416,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="172" IsEnabled="False"/>
 
 
 
