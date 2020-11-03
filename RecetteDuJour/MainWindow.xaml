@@ -15,7 +15,7 @@
         </Grid.Background>
         <Label Content="BIENVENUE AU SNACK KAIKAAKU" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="44,22,0,0" Width="980" FontFamily="Snap ITC" FontSize="46" Foreground="#FFE71B1B" Background="#FFE7E11F"/>
         <Label Content="Là où TOUT est BON à MANGER!!!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="92,97,0,0" Width="881" FontSize="42" FontStyle="Italic" FontFamily="Snap ITC" Background="#FFE2CB3D"/>
-        <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="193" Margin="47,184,0,0" Source="/Ressources/kaakukeekee.png" />
+        <Image x:Name="kaakunoir" HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="193" Margin="47,184,0,0" Source="/Ressources/kaakukeekee.png" MouseDown="kaakunoir_MouseDown" />
         <Label Content="Chers clients, nous vous proposons des plats typiquement " HorizontalAlignment="Left" Height="35" Margin="265,168,0,0" VerticalAlignment="Top" Width="551" FontFamily="Mongolian Baiti" FontSize="22" FontStyle="Italic" RenderTransformOrigin="0.513,0.034" Foreground="#FF1DD0CC"/>
         
         <Image HorizontalAlignment="Left" Height="140" Margin="805,194,0,0" VerticalAlignment="Top" Width="219" Source="/Ressources/PHOTO KAAKU BLANC.jpg" MouseDown="Image_MouseDown"/>
