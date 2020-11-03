@@ -32,7 +32,7 @@
         <TextBlock x:Name="ingredients" HorizontalAlignment="Left" Margin="18,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="190" Width="264" Background="White" Grid.RowSpan="2"/>
         <TextBox x:Name="title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="44" Margin="18,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" FontWeight="Bold" Opacity="0.5" RenderTransformOrigin="0.801,0.576" TextChanged="title_TextChanged"/>
         <Image HorizontalAlignment="Left" Height="175" Margin="41,121,0,0" VerticalAlignment="Top" Width="244" Source="/Ressources/kaakukeekee.png"/>
-        <TextBox x:Name="nbrePers" HorizontalAlignment="Left" Height="57" Margin="562,379,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" IsEnabled="False" FontSize="36"/>
+        <TextBox x:Name="nbrePers" HorizontalAlignment="Left" Height="57" Margin="562,379,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" IsEnabled="False" FontSize="36" Opacity="0"/>
         <TextBlock HorizontalAlignment="Left" Height="52" Margin="622,384,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"><Run FontSize="36" FontFamily="Script MT Bold" Text="personnes"/><Run FontSize="36" FontFamily="Script MT Bold" Text=" :"/><Run Text="."/></TextBlock>
 
 
